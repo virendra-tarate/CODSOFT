@@ -1,0 +1,102 @@
+body{
+    background-color: black;
+}
+#nav{
+    background-color: black;
+}
+
+#hosting-name{
+    /* margin-right: 100px; */
+    font-size: 32px;
+    font-family: 'Tektur';
+    color: cyan;
+}
+
+#navbarSupportedContent ul li .nav-link{
+    color: white;
+}
+
+#navbarSupportedContent ul li a:hover{
+    color: rgb(193, 193, 193);
+}
+
+.starChecked{
+    color:orange;
+}
+
+.starUnchecked{
+    color: white;
+}
+
+#ratingContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#ratingContainer div{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#ratingContainer div h4{
+    color: bisque;
+}
+
+#pricingTitle{
+    text-align: center;
+    color: beige;
+}
+
+#cardContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#cardContainer .card{
+    margin-top: 60px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#cardContainer .card h5{
+    text-align: center;
+}
+
+.carousel{
+    width:70vw;
+    margin: auto;
+}
+
+.py-5{
+    color: azure;
+}
+
+.py-5 ul li a{
+    color: rgb(201, 233, 233);
+}
+
+#myFooter{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+#form{
+    color: blanchedalmond;
+    margin-left: 10vw;
+    /* background-color: rgb(224, 214, 234); */
+    margin-right: 10vw;
+}
+
+.row{
+    padding-top: 30px;
+}
+
+/* Media query for Cards */
+@media (max-width:574px) {
+    #cardContainer{
+        flex-wrap: wrap;
+        
+    }
+    
+}
