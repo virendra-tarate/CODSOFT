@@ -1,0 +1,144 @@
+#imgLogo{
+  height:55px;
+  width: 55px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+  /* color: rgb(132, 47, 189); */
+}
+
+#navbarSupportedContent ul li a:hover{
+  color: aqua;
+}
+
+#Home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+
+#name{
+  background: url(./Images/textbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#homeDiv{
+  margin-left: 5%;
+  width:45%;
+  max-width: 45%;
+  flex-wrap: wrap;
+}
+
+#homeDiv h1{
+  font-size: 49px;
+}
+
+#homeDiv #text{
+  line-height: 2;
+  font-size:20px;
+}
+
+#imgDiv{
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background-color: red; */
+}
+
+
+/* Social Media Animation  */
+
+.parent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease-in-out;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.child:hover {
+  background-color: transparent;
+  background-position: -100px 100px, -100px 100px;
+  transform: rotate3d(0.5, 1, 0, 30deg);
+  transform: perspective(180px) rotateX(60deg) translateY(2px);
+  box-shadow: 0px 10px 10px rgb(0, 233, 250);
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+.button:hover {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate3d(0px, 0px, 15px) perspective(180px) rotateX(-35deg) translateY(2px);
+  border-radius: 50%;
+}
+
+/* /// */
+
+#About{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#aboutImgDiv{
+  margin-left: 5%;
+}
+
+#aboutDiv{
+  margin-left: 5%;
+  width: 45%;
+  max-width: 45%;
+}
+
+#aboutDiv span{
+  line-height: 2;
+}
+
+#Skill{
+  margin-left: 10%;
+}
+
+#cardContainer{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+#cardContainer .card{
+  margin: 20px;
+}
+
+#ContactContainer{
+  margin-left: 15%;
+  margin-right: 15%;
+}
